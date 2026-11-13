@@ -1,5 +1,5 @@
-/* Service worker de Flujo: cache-first para uso offline (solo se registra bajo http/https). */
-const CACHE = 'flujo-v1';
+﻿/* Service worker de Flujo: cache-first para uso offline (solo se registra bajo http/https). */
+const CACHE = 'flujo-v2';
 const ASSETS = ['./', './index.html'];
 
 self.addEventListener('install', e => {
